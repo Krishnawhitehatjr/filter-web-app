@@ -2,7 +2,7 @@ noseX=0
 noseY=0
 function preload(){
 clown_nose = loadImage('https://i.postimg.cc/J7qSpnM4/Clown-Nose-removebg-preview.png')
-//apple = loadImage('https:i.postimg.cc/tCXqSTwd/6-68549-large-painted-apples-png-clipart-gallery-yopriceville-apple-removebg-preview.png')
+apple = loadImage('https:i.postimg.cc/tCXqSTwd/6-68549-large-painted-apples-png-clipart-gallery-yopriceville-apple-removebg-preview.png')
 }
 function setup(){
  canvas= createCanvas(300,300)
@@ -24,7 +24,7 @@ function draw(){
     stroke(255,0,0);
     //circle(noseX,noseY,20);
     image(clown_nose,noseX-25,noseY-27,50,50)
-    //image(apple,noseX,noseY,45,45)
+    image(apple,noseX,noseY,45,45)
    }
 function gotPoses(results){
     if(results.length > 0 ){
